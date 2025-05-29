@@ -22,10 +22,12 @@ int main() { // Déclaration de la fonction principale, point d'entrée du progr
         }
     }
     printf("Intersection : "); // Affiche le texte "Intersection : "
-    for (int i = 0; i < taille; i++) printf("%d ", inter[i]); 
+    for (int i = 0; i < taille; i++)
+    {
+         printf("%d ", inter[i]); 
+    }     
     // Affiche chaque élément du tableau inter (séparé par un espace)
     printf("\n"); // Saut de ligne après l'affichage
 
     return 0; // Fin du programme avec un code de retour 0 (succès)
 }
-
