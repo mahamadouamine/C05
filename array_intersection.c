@@ -22,8 +22,7 @@ int main() { // Déclaration de la fonction principale, point d'entrée du progr
         }
     }
     printf("Intersection : "); // Affiche le texte "Intersection : "
-    for (int i = 0; i < taille; i++)
-    {
+    for (int i = 0; i < taille; i++) {
          printf("%d ", inter[i]); 
     }     
     // Affiche chaque élément du tableau inter (séparé par un espace)
