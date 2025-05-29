@@ -5,7 +5,7 @@ int main() { // Déclaration de la fonction principale, point d'entrée du progr
     
 
     int tab[100]; // Déclaration d’un tableau tab (inutile ici)
-    int val; // Déclaration d’une variable val (inutile ici)
+   
 
     scanf("%d", &n1); // Lecture du nombre d'éléments dans le tableau t1
     for (int i = 0; i < n1; i++) scanf("%d", &t1[i]); 
